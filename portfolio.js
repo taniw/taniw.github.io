@@ -1,5 +1,9 @@
 
 $(document).ready(function() {
    
-    console.log('adfadfad');
+    $('p').unbind().click(testing);
 });
+
+function testing() {
+	console.log('does this work');
+}
