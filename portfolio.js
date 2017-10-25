@@ -1,11 +1,7 @@
-function init() {
-	setupEvents();
-}
+$(document).ready(function() {
+	$('p').unbind().click(testing);
+});
 
-function setupEvents() {
-	$('p').unbind().click(testingClick);
-}
-
-function testingClick() {
-	console.log('does this work');
+function testing() {
+	console.log('adfadf');
 }
