@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
    
-    $('p').unbind().click(testing);
+    $('h1').unbind().click(testing);
 });
 
 function testing() {
