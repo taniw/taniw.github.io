@@ -1,7 +1,5 @@
 $(document).ready(function() {
-	$('p').unbind().click(testing);
+    $("p").click(function () {
+    	console.log('adfadf');
+    });
 });
-
-function testing() {
-	console.log('adfadf');
-}
