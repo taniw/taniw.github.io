@@ -7,14 +7,103 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-</head>
-<body>
-<h1>Hello, world!</h1>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.iife.js">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-<div class="alert alert-primary" role="alert">
-  This is a primary alert—check it out!
+<style>
+.jumbotron { background-image: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg);
+background-size:cover;
+height:912px;
+}
+
+.container { text-align: center; }
+.hello { margin-top:300px;}
+
+h1 { color:white; margin-bottom:20px; }
+h2 { font-family: helvetica, sans-serif; font-size:25px; letter-spacing:2px; margin-bottom: 30px; padding-bottom:30px; border-bottom:1px solid #ccc; }
+.links { color:white; margin:10px; }
+
+#about-sect { font-family:Georgia; margin: 90px auto; }
+#about-sect p { font-size:15px; line-height:32px;}
+
+.contact { text-align:center; margin-top:240px; margin-bottom:240px; }
+.circle {  background: white; display: inline-block; padding: 20px; border-radius: 50%; margin:22px; border:2px solid #383838; }
+.fa-linkedin-square, .fa-github, .fa-envelope-o  { font-size:30px; color:#383838;}
+.circle:hover { background: #383838; color:white;}
+
+.footer-bottom { background: purple; padding: 15px; color: white; }
+</style>
+
+</head>
+
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+<div class="container hello">
+<h1 class="display-3">H E L L O</h1>
+<a href="#about-sect" class="links" id="about">About</a>
+<a href="" class="links" id="portfoio">Portfolio</a>
+<a href="#contact-sect" class="links" id="connect">Connect</a>
 </div>
+</div>
+
+<div id="about-sect" class="col-md-10">
+<div class="row">
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-right:90px;">
+		<h2>A QUICK LOOK-SEE</h2>
+
+		<p>Hello! My name is Tani, a graphic designer and web developer based in San Francisco, CA. I graduated from University of California Davis with Bachelor of Arts degrees in Design and Communication. After working as a graphic designer for a few years, I decided to dive deeper in tech and completed a 12 week immersive course on web development at General Assembly.<p>
+
+		<p>I currently work at an edtech startup in the Bay Area, doing both design and development. Being a graphic designer with a set of web development tools under my belt, I get excited for opportunities that allow me to interconnect my design and programming skills.</p>
+
+		<p>When not designing or strengthening my coding chops, you can find me outdoors, soaking up some rays with friends. From playing tackle football on the beach to night bike rides on the Embarcadero; having time away from the screen is always refreshing.</p>
+	</div>
+
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background:red;">About me photo</div>
+</div>
+</div>
+
+<div class="row">
+	<div class='col-md-12'>
+		<h2>Portfolio</h2>
+		<div class="row">
+			<div class="rectangle col-md-4">
+				square 1
+			</div>
+			<div class="rectangle col-md-4">
+				square 2
+			</div>
+			<div class="rectangle col-md-4">
+				square 3
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="portfolio-sect">
+	</div>
+
+<div id="contact-sect">
+	<div class="contact">
+		<a href="https://www.linkedin.com/in/taniwong/" target="_blank"><i class="fa fa-linkedin-square circle" aria-hidden="true"></i></a>
+		<a href="https://github.com/taniw" target="_blank"><i class="fa fa-github circle" aria-hidden="true"></i></a>
+		<a href="mailto:tani.s.wong@gmail.com"><i class="fa fa-envelope-o circle" aria-hidden="true"></i></a>
+	</div>
+</div>
+
+<div class="footer-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="copyright">© 2017</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -23,24 +112,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="portfolio.js"></script>
 </body>
+
 </html>
-
-
-<!--<html lang="en">
-<head>
-<meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="portfolio.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="portfolio.js"></script>
-</head>
-
-
-
-<p>Hello world</p>
-
-</html>-->
