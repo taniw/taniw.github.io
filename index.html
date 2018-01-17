@@ -19,6 +19,7 @@ height:912px;
 
 .container { text-align: center; }
 .hello { margin-top:300px;}
+.hello a:hover { color:white; }
 
 h1 { color:white; margin-bottom:20px; }
 h2 { font-family: helvetica, sans-serif; font-size:25px; letter-spacing:2px; margin-bottom: 30px; padding-bottom:30px; border-bottom:1px solid #ccc; }
@@ -30,7 +31,14 @@ h2 { font-family: helvetica, sans-serif; font-size:25px; letter-spacing:2px; mar
 .contact { text-align:center; margin-top:240px; margin-bottom:240px; }
 .circle {  background: white; display: inline-block; padding: 20px; border-radius: 50%; margin:22px; border:2px solid #383838; }
 .fa-linkedin-square, .fa-github, .fa-envelope-o  { font-size:30px; color:#383838;}
+
+#portfolio-sect { margin: 90px auto; }
+#showWorkDiv { background: purple; width:100%; height:500px; margin-bottom: 50px; display:none; }
 .circle:hover { background: #383838; color:white;}
+.rectangle img { width:100%; cursor:pointer; border-radius:3px; opacity:.7; }
+.rectangle img:hover { opacity:1; }
+
+.project-row { margin-bottom:30px !important;}
 
 .footer-bottom { background: purple; padding: 15px; color: white; }
 </style>
@@ -43,7 +51,7 @@ h2 { font-family: helvetica, sans-serif; font-size:25px; letter-spacing:2px; mar
 <div class="container hello">
 <h1 class="display-3">H E L L O</h1>
 <a href="#about-sect" class="links" id="about">About</a>
-<a href="" class="links" id="portfoio">Portfolio</a>
+<a href="#portfolio-sect" class="links" id="portfolio">Portfolio</a>
 <a href="#contact-sect" class="links" id="connect">Connect</a>
 </div>
 </div>
@@ -64,18 +72,50 @@ h2 { font-family: helvetica, sans-serif; font-size:25px; letter-spacing:2px; mar
 </div>
 </div>
 
-<div class="row">
-	<div class='col-md-12'>
+<div id="portfolio-sect" class="col-md-10">
+	<div>
 		<h2>Portfolio</h2>
-		<div class="row">
-			<div class="rectangle col-md-4">
-				square 1
+		<div id="showWorkDiv">
+			<div class="row col-md-12">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background:red; min-height:300px;">Project Image</div>
+
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-right:90px;">
+				<h3>Sweatherman</h3>
+
+				<p>Sweatherman allows users to retrieve weather temperature and conditions based on searched location. Users can also favorite specific cities and have them readily available in their profile. I enjoy the simplicity of the layout and the element of surprise when the weather data is displayed.<p>
+
 			</div>
-			<div class="rectangle col-md-4">
-				square 2
+		</div>
+</div>
+		</div>
+
+		<div class="row project-row" style="margin:0 auto;">
+			<div class="rectangle col-md-3">
+				<a href="#showWorkDiv"><img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?dpr=1&auto=format&fit=crop&w=376&h=212&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
 			</div>
-			<div class="rectangle col-md-4">
-				square 3
+			<div class="rectangle col-md-3">
+				<a href="#showWorkDiv"><img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?dpr=1&auto=format&fit=crop&w=376&h=212&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+			</div>
+			<div class="rectangle col-md-3">
+				<a href="#showWorkDiv"><img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?dpr=1&auto=format&fit=crop&w=376&h=212&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+			</div>
+			<div class="rectangle col-md-3">
+				<a href="#showWorkDiv"><img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?dpr=1&auto=format&fit=crop&w=376&h=212&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+			</div>
+		</div>
+
+		<div class="row project-row" style="margin:0 auto;">
+			<div class="rectangle col-md-3">
+				<a href="#showWorkDiv"><img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?dpr=1&auto=format&fit=crop&w=376&h=212&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+			</div>
+			<div class="rectangle col-md-3">
+				<a href="#showWorkDiv"><img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?dpr=1&auto=format&fit=crop&w=376&h=212&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+			</div>
+			<div class="rectangle col-md-3">
+				<a href="#showWorkDiv"><img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?dpr=1&auto=format&fit=crop&w=376&h=212&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+			</div>
+			<div class="rectangle col-md-3">
+				<a href="#showWorkDiv"><img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?dpr=1&auto=format&fit=crop&w=376&h=212&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
 			</div>
 		</div>
 	</div>
