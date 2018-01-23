@@ -13,8 +13,8 @@ $(document).ready(function() {
 }*/
 
 function showRec1() {
-	$('#rec2-content').hide();
-	$('#rec1-content').fadeIn();
+	//$('#rec2-content').hide();
+	$('#rec1-content').show();
 }
 
 function showRec2() {
