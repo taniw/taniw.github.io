@@ -1,7 +1,6 @@
 
 $(document).ready(function() {
    
-    $('h1').unbind().click(testing);
     //$('.rectangle').unbind().click(showWorkDetails);
 
 //    $('#rec2').unbind().click(showRec1);
