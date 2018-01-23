@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-   
+   c
     //$('.rectangle').unbind().click(showWorkDetails);
 
     $('#rec1').unbind().click(showRec1);
@@ -18,6 +18,7 @@ function showRec1() {
 }
 
 function showRec2() {
+	console.log('asdfadf');
 	$('#rec1-content').hide();
 	$('#rec2-content').show();
 }
