@@ -19,5 +19,5 @@ function showRec1() {
 
 function showRec2() {
 	$('#rec1-content').hide();
-	$('#rec2-content').fadeIn();
+	$('#rec2-content').show();
 }
