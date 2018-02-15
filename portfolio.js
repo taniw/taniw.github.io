@@ -17,6 +17,7 @@ $(document).ready(function() {
     $('#rec13').unbind().click(showRec13);
     $('#rec14').unbind().click(showRec14);
     $('#rec15').unbind().click(showRec15);
+    $('#rec16').unbind().click(showRec16);
 });
 
 
