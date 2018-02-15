@@ -95,6 +95,11 @@ function showRec15() {
 	$('#rec15-content').fadeIn();
 }
 
+function showRec16() {
+	$('.work-details').hide();
+	$('#rec16-content').fadeIn();
+}
+
 
 
 
