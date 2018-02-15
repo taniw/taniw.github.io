@@ -18,6 +18,8 @@ $(document).ready(function() {
     $('#rec14').unbind().click(showRec14);
     $('#rec15').unbind().click(showRec15);
     $('#rec16').unbind().click(showRec16);
+    $('#rec17').unbind().click(showRec17);
+    $('#rec18').unbind().click(showRec18);
 });
 
 
@@ -99,6 +101,16 @@ function showRec15() {
 function showRec16() {
 	$('.work-details').hide();
 	$('#rec16-content').fadeIn();
+}
+
+function showRec17() {
+	$('.work-details').hide();
+	$('#rec17-content').fadeIn();
+}
+
+function showRec18() {
+	$('.work-details').hide();
+	$('#rec18-content').fadeIn();
 }
 
 
