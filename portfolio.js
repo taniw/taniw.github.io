@@ -108,10 +108,6 @@ function showRec17() {
 	$('#rec17-content').fadeIn();
 }
 
-function showRec18() {
-	$('.work-details').hide();
-	$('#rec18-content').fadeIn();
-}
 
 
 
